@@ -1,0 +1,66 @@
+.e13-header-wrapper{
+    position: absolute;
+    width: 30vw;
+    height: 7vh;
+    margin-left: 35vw;
+    background-color: var(--e13-main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--e13-second-color);
+    border-top: none;
+    box-shadow: 0px 5px 10px rgba(62, 116, 152, 0.76);
+    z-index: 100;
+}
+
+.e13-input-search{
+    width: var(--e13-input-width);
+    height: 55%;
+    padding-left: 10px;
+    background-color: var(--e13-main-color);
+    font-family: var(--e13-global-font-family);
+    font-size: 20px;
+    color: var(--e13-second-color);
+    border: none;
+    border-bottom: 2px solid var(--e13-second-color);
+    outline: none;
+    z-index: 101;
+}
+
+.e13-dd-helper-wrapper{
+    position: absolute;
+    width: 60%;
+    padding: 10px;
+    height: auto;
+    top: 74%;
+    background-color: var(--e13-main-color);
+    border-top: none;
+    box-shadow: 0px 5px 10px rgba(62, 116, 152, 0.76);
+    z-index: 100;
+}
+
+.e13-dd-element{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    font-family: var(--e13-global-font-family);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.e13-dd-element-focus{
+    color: var(--e13-main-color);
+    background-color: var(--e13-second-color);
+}
+
+.e13-dd-element-blur{
+    color: var(--e13-second-color);
+    background-color: none;
+}
+
+:root{
+    --e13-input-width: 70%;
+    --e13-main-color: #123;
+    --e13-second-color: #1494c5;
+    --e13-global-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
