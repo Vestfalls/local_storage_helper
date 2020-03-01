@@ -1,8 +1,8 @@
 .e13-header-wrapper{
     position: absolute;
-    width: 30vw;
+    width: 22vw;
     height: 7vh;
-    margin-left: 35vw;
+    margin-left: 39vw;
     background-color: var(--e13-main-color);
     display: flex;
     align-items: center;

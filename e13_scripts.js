@@ -5,3 +5,31 @@ const ELEM_LIST_ITEM_ID_PREFIX = 'e13-list-item';
 
 const CLASS_ELEM_BLUR = 'e13-dd-element-blur';
 const CLASS_ELEM_FOCUS = 'e13-dd-element-focus';
+
+const LOGER_ON = true;
+
+let isLoadInProggress = false;
+let isLoadComplete = false;
+
+
+document.addEventListener('DOMContentLoaded', function(){
+    document.addEventListener('keydown', e =>{
+        keyListen(e)
+    })
+}) 
+
+function keyListen(e){
+    if(e.altKey && e.key === 'q' || e.key === 'й'){
+        logger('start');
+    }
+}
+    
+function startLoad(event){
+    console.log(event);
+}
+
+function logger(...args){
+    if(LOGER_ON){
+        console.log(args)
+    }
+}
