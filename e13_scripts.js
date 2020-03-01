@@ -1,4 +1,3 @@
-
 const ELEM_WRAPPER_HEADER_ID = 'e13-header-wrapper';
 const ELEM_WRAPPER_LIST_ID = 'e13-elem-list';
 const ELEM_INPUT_SEARCH_ID = 'e13-input-search';
