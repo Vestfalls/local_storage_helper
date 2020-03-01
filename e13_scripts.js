@@ -6,6 +6,8 @@ const ELEM_LIST_ITEM_ID_PREFIX = 'e13-list-item';
 const CLASS_ELEM_BLUR = 'e13-dd-element-blur';
 const CLASS_ELEM_FOCUS = 'e13-dd-element-focus';
 
+const PREFIX = 'e13-';
+
 const LOGER_ON = true;
 
 let isLoadInProggress = false;
