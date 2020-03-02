@@ -20,21 +20,13 @@ const PREFIX = 'e13-';
 
 const LOGER_ON = true;
 
-
-
-
 let currentLoadStatus = null;
 
-if(LOAD_STATUS_FIRST_INIT){
-    setStatus(LOAD_STATUS_FIRST_INIT);
-}
 
-document.addEventListener('DOMContentLoaded', function(){
-    document.addEventListener('keydown', e =>{
-        getInitFunc(e);
-    })
-}) 
-
+document.addEventListener('keydown', e =>{
+    logger('test');
+    getInitFunc(e);
+})
 
 function getInitFunc(e){
     if(e.altKey && e.key === 'q' || e.key === 'й'){
@@ -52,10 +44,6 @@ function getInitFunc(e){
     }
 }
 
-function firstInit(){
-
-}
-    
 function initWorkWindow(){
  
 }
